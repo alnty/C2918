@@ -68,43 +68,43 @@ hearts_cube = random.randint(1, 14)
 if hearts_cube == 1:
     print("You got Ace of hearts ❤")
     heart_card = ace_of_hearts
-if hearts_cube == 2:
+elif hearts_cube == 2:
     print("You got One of hearts ❤")
     heart_card = one_of_hearts
-if hearts_cube == 3:
+elif hearts_cube == 3:
     print("You got Two of hearts ❤")
     heart_card = two_of_hearts
-if hearts_cube == 4:
+elif hearts_cube == 4:
     print("You got Three of hearts ❤")
     heart_card = three_of_hearts
-if hearts_cube == 5:
+elif hearts_cube == 5:
     print("You got Four of hearts ❤")
     heart_card = four_of_hearts
-if hearts_cube == 6:
+elif hearts_cube == 6:
     print("You got Five of hearts ❤")
     heart_card = five_of_hearts
-if hearts_cube == 7:
+elif hearts_cube == 7:
     print("You got Six of hearts ❤")
     heart_card = six_of_hearts
-if hearts_cube == 8:
+elif hearts_cube == 8:
     print("You got Seven of hearts ❤")
     heart_card = seven_of_hearts
-if hearts_cube == 9:
+elif hearts_cube == 9:
     print("You got Eight of hearts ❤")
     heart_card = eight_of_hearts
-if hearts_cube == 10:
+elif hearts_cube == 10:
     print("You got Nine of hearts ❤")
     heart_card = nine_of_hearts
-if hearts_cube == 11:
+elif hearts_cube == 11:
     print("You got Ten of hearts ❤")
     heart_card = ten_of_hearts
-if hearts_cube == 11:
+elif hearts_cube == 11:
     print("You got Jack of hearts ❤")
     heart_card = jack_of_hearts
-if hearts_cube == 12:
+elif hearts_cube == 12:
     print("You got Queen of hearts ❤")
     heart_card = queen_of_hearts
-if hearts_cube == 13:
+elif hearts_cube == 13:
     print("You got King of hearts ❤")
     heart_card = king_of_hearts
 
@@ -113,43 +113,43 @@ diamonds_cube = random.randint(1, 14)
 if diamonds_cube == 1:
     print("You got Ace of diamonds ♦")
     diamond_card = ace_of_diamonds
-if diamonds_cube == 2:
+elif diamonds_cube == 2:
     print("You got One of diamonds ♦")
     diamond_card = one_of_diamonds
-if diamonds_cube == 3:
+elif diamonds_cube == 3:
     print("You got Two of diamonds ♦")
     diamond_card = two_of_diamonds
-if diamonds_cube == 4:
+elif diamonds_cube == 4:
     print("You got Three of diamonds ♦")
     diamond_card = three_of_diamonds
-if diamonds_cube == 5:
+elif diamonds_cube == 5:
     print("You got Four of diamonds ♦")
     diamond_card = four_of_diamonds
-if diamonds_cube == 6:
+elif diamonds_cube == 6:
     print("You got Five of diamonds ♦")
     diamond_card = five_of_diamonds
-if diamonds_cube == 7:
+elif diamonds_cube == 7:
     print("You got Six of diamonds ♦")
     diamond_card = six_of_diamonds
-if diamonds_cube == 8:
+elif diamonds_cube == 8:
     print("You got Seven of diamonds ♦")
     diamond_card = seven_of_diamonds
-if diamonds_cube == 9:
+elif diamonds_cube == 9:
     print("You got Eight of diamonds ♦")
     diamond_card = eight_of_diamonds
-if diamonds_cube == 10:
+elif diamonds_cube == 10:
     print("You got Nine of diamonds ♦")
     diamond_card = nine_of_diamonds
-if diamonds_cube == 11:
+elif diamonds_cube == 11:
     print("You got Ten of diamonds ♦")
     diamond_card = ten_of_diamonds
-if diamonds_cube == 11:
+elif diamonds_cube == 11:
     print("You got Jack of diamonds ♦")
     diamond_card = jack_of_diamonds
-if diamonds_cube == 12:
+elif diamonds_cube == 12:
     print("You got Queen of diamonds ♦")
     diamond_card = queen_of_diamonds
-if diamonds_cube == 13:
+elif diamonds_cube == 13:
     print("You got King of diamonds ♦")
     diamond_card = king_of_diamonds
 
@@ -158,43 +158,43 @@ clubs_cube = random.randint(1, 14)
 if clubs_cube == 1:
     print("You got Ace of clubs ♣")
     club_card = ace_of_clubs
-if clubs_cube == 2:
+elif clubs_cube == 2:
     print("You got One of clubs ♣")
     club_card = one_of_clubs
-if clubs_cube == 3:
+elif clubs_cube == 3:
     print("You got Two of clubs ♣")
     club_card = two_of_clubs
-if clubs_cube == 4:
+elif clubs_cube == 4:
     print("You got Three of clubs ♣")
     club_card = three_of_clubs
-if clubs_cube == 5:
+elif clubs_cube == 5:
     print("You got Four of clubs ♣")
     club_card = four_of_clubs
-if clubs_cube == 6:
+elif clubs_cube == 6:
     print("You got Five of clubs ♣")
     club_card = five_of_clubs
-if clubs_cube == 7:
+elif clubs_cube == 7:
     print("You got Six of clubs ♣")
     club_card = six_of_clubs
-if clubs_cube == 8:
+elif clubs_cube == 8:
     print("You got Seven of clubs ♣")
     club_card = seven_of_clubs
-if clubs_cube == 9:
+elif clubs_cube == 9:
     print("You got Eight of clubs ♣")
     club_card = eight_of_clubs
-if clubs_cube == 10:
+elif clubs_cube == 10:
     print("You got Nine of clubs ♣")
     club_card = nine_of_clubs
-if clubs_cube == 11:
+elif clubs_cube == 11:
     print("You got Ten of clubs ♣")
     club_card = ten_of_clubs
-if clubs_cube == 11:
+elif clubs_cube == 11:
     print("You got Jack of clubs ♣")
     club_card = jack_of_clubs
-if clubs_cube == 12:
+elif clubs_cube == 12:
     print("You got Queen of clubs ♣")
     club_card = queen_of_clubs
-if clubs_cube == 13:
+elif clubs_cube == 13:
     print("You got King of clubs ♣")
     club_card = king_of_clubs
 
@@ -203,43 +203,43 @@ spades_cube = random.randint(1, 14)
 if spades_cube == 1:
     print("You got Ace of spades ♠")
     spades_card = ace_of_spades
-if spades_cube == 2:
+elif spades_cube == 2:
     print("You got One of spades ♠")
     spades_card = one_of_spades
-if spades_cube == 3:
+elif spades_cube == 3:
     print("You got Two of spades ♠")
     spades_card = two_of_spades
-if spades_cube == 4:
+elif spades_cube == 4:
     print("You got Three of spades ♠")
     spades_card = three_of_spades
-if spades_cube == 5:
+elif spades_cube == 5:
     print("You got Four of spades ♠")
     spades_card = four_of_spades
-if spades_cube == 6:
+elif spades_cube == 6:
     print("You got Five of spades ♠")
     spades_card = five_of_spades
-if spades_cube == 7:
+elif spades_cube == 7:
     print("You got Six of spades ♠")
     spades_card = six_of_spades
-if spades_cube == 8:
+elif spades_cube == 8:
     print("You got Seven of spades ♠")
     spades_card = seven_of_spades
-if spades_cube == 9:
+elif spades_cube == 9:
     print("You got Eight of spades ♠")
     spades_card = eight_of_spades
-if spades_cube == 10:
+elif spades_cube == 10:
     print("You got Nine of spades ♠")
     spades_card = nine_of_spades
-if spades_cube == 11:
+elif spades_cube == 11:
     print("You got Ten of spades ♠")
     spades_card = ten_of_spades
-if spades_cube == 11:
+elif spades_cube == 11:
     print("You got Jack of spades ♠")
     spades_card = jack_of_spades
-if spades_cube == 12:
+elif spades_cube == 12:
     print("You got Queen of spades ♠")
     spades_card = queen_of_spades
-if spades_cube == 13:
+elif spades_cube == 13:
     print("You got King of spades ♠")
     spades_card = king_of_spades
 
@@ -253,13 +253,13 @@ if comp_cards_cube == 1:
     third_ch_card = jack_of_clubs
     fourth_ch_card = king_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
-if comp_cards_cube == 2:
+elif comp_cards_cube == 2:
     first_ch_card = one_of_hearts
     second_ch_card = six_of_diamonds
     third_ch_card = queen_of_clubs
     fourth_ch_card = four_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
-if comp_cards_cube == 3:
+elif comp_cards_cube == 3:
     first_ch_card = nine_of_hearts
     second_ch_card = ace_of_diamonds
     third_ch_card = two_of_clubs
