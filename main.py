@@ -253,15 +253,21 @@ if comp_cards_cube == 1:
     third_ch_card = jack_of_clubs
     fourth_ch_card = king_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
-elif comp_cards_cube == 2:
+    if card_choose == heart_card or diamond_card or club_card or spades_card:
+        print("oke")
+if comp_cards_cube == 2:
     first_ch_card = one_of_hearts
     second_ch_card = six_of_diamonds
     third_ch_card = queen_of_clubs
     fourth_ch_card = four_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
-elif comp_cards_cube == 3:
+    if card_choose == heart_card:
+        print("")
+if comp_cards_cube == 3:
     first_ch_card = nine_of_hearts
     second_ch_card = ace_of_diamonds
     third_ch_card = two_of_clubs
     fourth_ch_card = eight_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
+    if card_choose == heart_card or diamond_card or club_card or spades_card:
+        print("oke")
