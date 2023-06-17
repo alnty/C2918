@@ -244,7 +244,7 @@ elif spades_cube == 13:
     spades_card = king_of_spades
 
 print("Now, computer need to get cards...")
-time.sleep(15)
+time.sleep(10)
 
 comp_cards_cube = random.randint(1, 3)
 if comp_cards_cube == 1:
@@ -253,14 +253,29 @@ if comp_cards_cube == 1:
     third_ch_card = jack_of_clubs
     fourth_ch_card = king_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
+    if card_choose == club_card:
+        if club_card > third_ch_card and first_ch_card != club_card and third_ch_card != club_card and fourth_ch_card != club_card:
+             print("Seems like it's Computer's card now!")
 if comp_cards_cube == 2:
     first_ch_card = one_of_hearts
     second_ch_card = six_of_diamonds
     third_ch_card = queen_of_clubs
     fourth_ch_card = four_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
+    if card_choose == heart_card:
+        if heart_card > first_ch_card and second_ch_card != heart_card and third_ch_card != heart_card and fourth_ch_card != heart_card:
+             print("Seems like it's Computer's card now!")
+        if heart_card < first_ch_card or second_ch_card == heart_card or third_ch_card == heart_card or fourth_ch_card == heart_card:
+            to_choose = random.randint(1,4)
+            if to
+    if card_choose == diamond_card:
+        if diamond_card > third_ch_card and second_ch_card != diamond_card and first_ch_card != diamond_card and fourth_ch_card != diamond_card:
+             print("Seems like it's Computer's card now!")
     if card_choose == club_card:
         if club_card > third_ch_card and first_ch_card != club_card and third_ch_card != club_card and fourth_ch_card != club_card:
+             print("Seems like it's Computer's card now!")
+    if card_choose == spades_card:
+        if spades_card > fourth_ch_card and first_ch_card != spades_card and third_ch_card != spades_card and third_ch_card != spades_card:
              print("Seems like it's Computer's card now!")
 if comp_cards_cube == 3:
     first_ch_card = nine_of_hearts
@@ -268,3 +283,6 @@ if comp_cards_cube == 3:
     third_ch_card = two_of_clubs
     fourth_ch_card = eight_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
+    if card_choose == club_card:
+        if club_card > third_ch_card and first_ch_card != club_card and third_ch_card != club_card and fourth_ch_card != club_card:
+             print("Seems like it's Computer's card now!")
