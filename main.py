@@ -157,46 +157,46 @@ elif diamonds_cube == 13:
 clubs_cube = random.randint(1, 14)
 if clubs_cube == 1:
     print("You got Ace of clubs ♣")
-    club_card = ace_of_clubs
+    club_card = ace_of_clubs and 14
 elif clubs_cube == 2:
     print("You got One of clubs ♣")
-    club_card = one_of_clubs
+    club_card = one_of_clubs and 1
 elif clubs_cube == 3:
     print("You got Two of clubs ♣")
-    club_card = two_of_clubs
+    club_card = two_of_clubs and 2
 elif clubs_cube == 4:
     print("You got Three of clubs ♣")
-    club_card = three_of_clubs
+    club_card = three_of_clubs and 3
 elif clubs_cube == 5:
     print("You got Four of clubs ♣")
-    club_card = four_of_clubs
+    club_card = four_of_clubs and 4
 elif clubs_cube == 6:
     print("You got Five of clubs ♣")
-    club_card = five_of_clubs
+    club_card = five_of_clubs and 5
 elif clubs_cube == 7:
     print("You got Six of clubs ♣")
-    club_card = six_of_clubs
+    club_card = six_of_clubs and 6
 elif clubs_cube == 8:
     print("You got Seven of clubs ♣")
-    club_card = seven_of_clubs
+    club_card = seven_of_clubs and 7
 elif clubs_cube == 9:
     print("You got Eight of clubs ♣")
-    club_card = eight_of_clubs
+    club_card = eight_of_clubs and 8
 elif clubs_cube == 10:
     print("You got Nine of clubs ♣")
-    club_card = nine_of_clubs
+    club_card = nine_of_clubs and 9
 elif clubs_cube == 11:
     print("You got Ten of clubs ♣")
-    club_card = ten_of_clubs
+    club_card = ten_of_clubs and 10
 elif clubs_cube == 11:
     print("You got Jack of clubs ♣")
-    club_card = jack_of_clubs
+    club_card = jack_of_clubs and 11
 elif clubs_cube == 12:
     print("You got Queen of clubs ♣")
-    club_card = queen_of_clubs
+    club_card = queen_of_clubs and 12
 elif clubs_cube == 13:
     print("You got King of clubs ♣")
-    club_card = king_of_clubs
+    club_card = king_of_clubs and 13
 
 
 spades_cube = random.randint(1, 14)
@@ -246,28 +246,25 @@ elif spades_cube == 13:
 print("Now, computer need to get cards...")
 time.sleep(15)
 
-comp_cards_cube = random.randint(1, 4)
+comp_cards_cube = random.randint(1, 3)
 if comp_cards_cube == 1:
     first_ch_card = ten_of_hearts
     second_ch_card = seven_of_diamonds
     third_ch_card = jack_of_clubs
     fourth_ch_card = king_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
-    if card_choose == heart_card or diamond_card or club_card or spades_card:
-        print("oke")
 if comp_cards_cube == 2:
     first_ch_card = one_of_hearts
     second_ch_card = six_of_diamonds
     third_ch_card = queen_of_clubs
     fourth_ch_card = four_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
-    if card_choose == heart_card:
-        print("")
+    if card_choose == club_card:
+        if club_card > third_ch_card and first_ch_card != club_card and third_ch_card != club_card and fourth_ch_card != club_card:
+             print("Seems like it's Computer's card now!")
 if comp_cards_cube == 3:
     first_ch_card = nine_of_hearts
     second_ch_card = ace_of_diamonds
     third_ch_card = two_of_clubs
     fourth_ch_card = eight_of_spades
     card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
-    if card_choose == heart_card or diamond_card or club_card or spades_card:
-        print("oke")
