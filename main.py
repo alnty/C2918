@@ -67,181 +67,180 @@ print("Your cards:")
 hearts_cube = random.randint(1, 14)
 if hearts_cube == 1:
     print("You got Ace of hearts ❤")
-    heart_card = ace_of_hearts
+    ace_of_hearts = 14
 elif hearts_cube == 2:
     print("You got One of hearts ❤")
-    heart_card = one_of_hearts
+    one_of_hearts = 1
 elif hearts_cube == 3:
     print("You got Two of hearts ❤")
-    heart_card = two_of_hearts
+    two_of_hearts = 2
 elif hearts_cube == 4:
     print("You got Three of hearts ❤")
-    heart_card = three_of_hearts
+    three_of_hearts = 3
 elif hearts_cube == 5:
     print("You got Four of hearts ❤")
-    heart_card = four_of_hearts
+    four_of_hearts = 4
 elif hearts_cube == 6:
     print("You got Five of hearts ❤")
-    heart_card = five_of_hearts
+    five_of_hearts = 5
 elif hearts_cube == 7:
     print("You got Six of hearts ❤")
-    heart_card = six_of_hearts
+    six_of_hearts = 6
 elif hearts_cube == 8:
     print("You got Seven of hearts ❤")
-    heart_card = seven_of_hearts
+    seven_of_hearts = 7
 elif hearts_cube == 9:
     print("You got Eight of hearts ❤")
-    heart_card = eight_of_hearts
+    eight_of_hearts = 8
 elif hearts_cube == 10:
     print("You got Nine of hearts ❤")
-    heart_card = nine_of_hearts
+    nine_of_hearts = 9
 elif hearts_cube == 11:
     print("You got Ten of hearts ❤")
-    heart_card = ten_of_hearts
+    ten_of_hearts = 10
 elif hearts_cube == 11:
     print("You got Jack of hearts ❤")
-    heart_card = jack_of_hearts
+    jack_of_hearts = 11
 elif hearts_cube == 12:
     print("You got Queen of hearts ❤")
-    heart_card = queen_of_hearts
+    queen_of_hearts = 12
 elif hearts_cube == 13:
     print("You got King of hearts ❤")
-    heart_card = king_of_hearts
+    king_of_hearts = 13
 
 
 diamonds_cube = random.randint(1, 14)
 if diamonds_cube == 1:
     print("You got Ace of diamonds ♦")
-    diamond_card = ace_of_diamonds
+    ace_of_diamonds = 14
 elif diamonds_cube == 2:
     print("You got One of diamonds ♦")
-    diamond_card = one_of_diamonds
+    one_of_diamonds = 1
 elif diamonds_cube == 3:
     print("You got Two of diamonds ♦")
-    diamond_card = two_of_diamonds
+    two_of_diamonds = 2
 elif diamonds_cube == 4:
     print("You got Three of diamonds ♦")
-    diamond_card = three_of_diamonds
+    three_of_diamonds = 3
 elif diamonds_cube == 5:
     print("You got Four of diamonds ♦")
-    diamond_card = four_of_diamonds
+    four_of_diamonds = 4
 elif diamonds_cube == 6:
     print("You got Five of diamonds ♦")
-    diamond_card = five_of_diamonds
+    five_of_diamonds = 5
 elif diamonds_cube == 7:
     print("You got Six of diamonds ♦")
-    diamond_card = six_of_diamonds
+    six_of_diamonds = 6
 elif diamonds_cube == 8:
     print("You got Seven of diamonds ♦")
-    diamond_card = seven_of_diamonds
+    seven_of_diamonds = 7
 elif diamonds_cube == 9:
     print("You got Eight of diamonds ♦")
-    diamond_card = eight_of_diamonds
+    eight_of_diamonds = 8
 elif diamonds_cube == 10:
     print("You got Nine of diamonds ♦")
-    diamond_card = nine_of_diamonds
+    nine_of_diamonds = 9
 elif diamonds_cube == 11:
     print("You got Ten of diamonds ♦")
-    diamond_card = ten_of_diamonds
+    ten_of_diamonds = 10
 elif diamonds_cube == 11:
     print("You got Jack of diamonds ♦")
-    diamond_card = jack_of_diamonds
+    jack_of_diamonds = 11
 elif diamonds_cube == 12:
     print("You got Queen of diamonds ♦")
-    diamond_card = queen_of_diamonds
+    queen_of_diamonds = 12
 elif diamonds_cube == 13:
     print("You got King of diamonds ♦")
-    diamond_card = king_of_diamonds
 
 
 clubs_cube = random.randint(1, 14)
 if clubs_cube == 1:
     print("You got Ace of clubs ♣")
-    club_card = ace_of_clubs and 14
+    ace_of_clubs = 14
 elif clubs_cube == 2:
     print("You got One of clubs ♣")
-    club_card = one_of_clubs and 1
+    one_of_clubs = 1
 elif clubs_cube == 3:
     print("You got Two of clubs ♣")
-    club_card = two_of_clubs and 2
+    two_of_clubs = 2
 elif clubs_cube == 4:
     print("You got Three of clubs ♣")
-    club_card = three_of_clubs and 3
+    three_of_clubs = 3
 elif clubs_cube == 5:
     print("You got Four of clubs ♣")
-    club_card = four_of_clubs and 4
+    four_of_clubs = 4
 elif clubs_cube == 6:
     print("You got Five of clubs ♣")
-    club_card = five_of_clubs and 5
+    five_of_clubs = 5
 elif clubs_cube == 7:
     print("You got Six of clubs ♣")
-    club_card = six_of_clubs and 6
+    six_of_clubs = 6
 elif clubs_cube == 8:
     print("You got Seven of clubs ♣")
-    club_card = seven_of_clubs and 7
+    seven_of_clubs = 7
 elif clubs_cube == 9:
     print("You got Eight of clubs ♣")
-    club_card = eight_of_clubs and 8
+    eight_of_clubs = 8
 elif clubs_cube == 10:
     print("You got Nine of clubs ♣")
-    club_card = nine_of_clubs and 9
+    nine_of_clubs = 9
 elif clubs_cube == 11:
     print("You got Ten of clubs ♣")
-    club_card = ten_of_clubs and 10
+    ten_of_clubs = 10
 elif clubs_cube == 11:
     print("You got Jack of clubs ♣")
-    club_card = jack_of_clubs and 11
+    jack_of_clubs = 11
 elif clubs_cube == 12:
     print("You got Queen of clubs ♣")
-    club_card = queen_of_clubs and 12
+    queen_of_clubs = 12
 elif clubs_cube == 13:
     print("You got King of clubs ♣")
-    club_card = king_of_clubs and 13
+    king_of_clubs = 13
 
 
 spades_cube = random.randint(1, 14)
 if spades_cube == 1:
     print("You got Ace of spades ♠")
-    spades_card = ace_of_spades
+    ace_of_spades = 14
 elif spades_cube == 2:
     print("You got One of spades ♠")
-    spades_card = one_of_spades
+    one_of_spades = 1
 elif spades_cube == 3:
     print("You got Two of spades ♠")
-    spades_card = two_of_spades
+    two_of_spades = 2
 elif spades_cube == 4:
     print("You got Three of spades ♠")
-    spades_card = three_of_spades
+    three_of_spades = 3
 elif spades_cube == 5:
     print("You got Four of spades ♠")
-    spades_card = four_of_spades
+    four_of_spades = 4
 elif spades_cube == 6:
     print("You got Five of spades ♠")
-    spades_card = five_of_spades
+    five_of_spades = 5
 elif spades_cube == 7:
     print("You got Six of spades ♠")
-    spades_card = six_of_spades
+    six_of_spades = 6
 elif spades_cube == 8:
     print("You got Seven of spades ♠")
-    spades_card = seven_of_spades
+    seven_of_spades = 7
 elif spades_cube == 9:
     print("You got Eight of spades ♠")
-    spades_card = eight_of_spades
+    eight_of_spades = 8
 elif spades_cube == 10:
     print("You got Nine of spades ♠")
-    spades_card = nine_of_spades
+    nine_of_spades = 9
 elif spades_cube == 11:
     print("You got Ten of spades ♠")
-    spades_card = ten_of_spades
+    ten_of_spades = 10
 elif spades_cube == 11:
     print("You got Jack of spades ♠")
-    spades_card = jack_of_spades
+    jack_of_spades = 11
 elif spades_cube == 12:
     print("You got Queen of spades ♠")
-    spades_card = queen_of_spades
+    queen_of_spades = 12
 elif spades_cube == 13:
     print("You got King of spades ♠")
-    spades_card = king_of_spades
+    king_of_spades = 13
 
 print("Now, computer need to get cards...")
 time.sleep(10)
@@ -252,37 +251,170 @@ if comp_cards_cube == 1:
     second_ch_card = seven_of_diamonds
     third_ch_card = jack_of_clubs
     fourth_ch_card = king_of_spades
-    card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
+    card_choose = input("It's your time to shine! Type a nomber of a card you want to start with. If you don't have a right card, type «I have nothing to fight back»\n")
+    if card_choose == heart_card:
+        if heart_card > first_ch_card and second_ch_card != heart_card and third_ch_card != heart_card and fourth_ch_card != heart_card:
+            print("Seems like it's Computer's card now!")
+        if heart_card < first_ch_card or second_ch_card == heart_card or third_ch_card == heart_card or fourth_ch_card == heart_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
+    if card_choose == diamond_card:
+        if diamond_card < first_ch_card or second_ch_card == diamond_card or third_ch_card == diamond_card or fourth_ch_card == diamond_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
+        else:
+            print("Seems like it's Computer's card now!")
     if card_choose == club_card:
-        if club_card > third_ch_card and first_ch_card != club_card and third_ch_card != club_card and fourth_ch_card != club_card:
-             print("Seems like it's Computer's card now!")
+        if club_card < first_ch_card or second_ch_card == club_card or third_ch_card == club_card or fourth_ch_card == club_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
+    if card_choose == spades_card:
+        if spades_card > fourth_ch_card and first_ch_card != spades_card and third_ch_card != spades_card and third_ch_card != spades_card:
+            print("Seems like it's Computer's card now!")
+        if spades_card < first_ch_card or second_ch_card == spades_card or third_ch_card == spades_card or fourth_ch_card == spades_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
 if comp_cards_cube == 2:
     first_ch_card = one_of_hearts
     second_ch_card = six_of_diamonds
     third_ch_card = queen_of_clubs
     fourth_ch_card = four_of_spades
-    card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
+    card_choose = input("It's your time to shine! Type a nomber of a card you want to start with. If you don't have a right card, type «I have nothing to fight back»\n")
     if card_choose == heart_card:
         if heart_card > first_ch_card and second_ch_card != heart_card and third_ch_card != heart_card and fourth_ch_card != heart_card:
              print("Seems like it's Computer's card now!")
         if heart_card < first_ch_card or second_ch_card == heart_card or third_ch_card == heart_card or fourth_ch_card == heart_card:
             to_choose = random.randint(1,4)
-            if to
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
     if card_choose == diamond_card:
-        if diamond_card > third_ch_card and second_ch_card != diamond_card and first_ch_card != diamond_card and fourth_ch_card != diamond_card:
-             print("Seems like it's Computer's card now!")
+        if diamond_card < first_ch_card or second_ch_card == diamond_card or third_ch_card == diamond_card or fourth_ch_card == diamond_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
+        else:
+            print("Seems like it's Computer's card now!")
     if card_choose == club_card:
         if club_card > third_ch_card and first_ch_card != club_card and third_ch_card != club_card and fourth_ch_card != club_card:
              print("Seems like it's Computer's card now!")
+        if club_card < first_ch_card or second_ch_card == club_card or third_ch_card == club_card or fourth_ch_card == club_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
     if card_choose == spades_card:
         if spades_card > fourth_ch_card and first_ch_card != spades_card and third_ch_card != spades_card and third_ch_card != spades_card:
              print("Seems like it's Computer's card now!")
+        if spades_card < first_ch_card or second_ch_card == spades_card or third_ch_card == spades_card or fourth_ch_card == spades_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
 if comp_cards_cube == 3:
     first_ch_card = nine_of_hearts
     second_ch_card = ace_of_diamonds
     third_ch_card = two_of_clubs
     fourth_ch_card = eight_of_spades
-    card_choose = input("It's your time to shine! Choose a card you want to start with.\n")
+    card_choose = input("It's your time to shine! Type a nomber of a card you want to start with. If you don't have a right card, type «I have nothing to fight back»\n")
+    if card_choose == heart_card:
+        if heart_card > first_ch_card and second_ch_card != heart_card and third_ch_card != heart_card and fourth_ch_card != heart_card:
+            print("Seems like it's Computer's card now!")
+        if heart_card < first_ch_card or second_ch_card == heart_card or third_ch_card == heart_card or fourth_ch_card == heart_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
+    if card_choose == diamond_card:
+        if diamond_card < first_ch_card or second_ch_card == diamond_card or third_ch_card == diamond_card or fourth_ch_card == diamond_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
+        else:
+            print("Seems like it's Computer's card now!")
     if card_choose == club_card:
         if club_card > third_ch_card and first_ch_card != club_card and third_ch_card != club_card and fourth_ch_card != club_card:
-             print("Seems like it's Computer's card now!")
+            print("Seems like it's Computer's card now!")
+        if club_card < first_ch_card or second_ch_card == club_card or third_ch_card == club_card or fourth_ch_card == club_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
+    if card_choose == spades_card:
+        if spades_card > fourth_ch_card and first_ch_card != spades_card and third_ch_card != spades_card and third_ch_card != spades_card:
+            print("Seems like it's Computer's card now!")
+        if spades_card < first_ch_card or second_ch_card == spades_card or third_ch_card == spades_card or fourth_ch_card == spades_card:
+            to_choose = random.randint(1, 4)
+            if to_choose == 1:
+                print(f"Computer decided to choose {first_ch_card}")
+            if to_choose == 2:
+                print(f"Computer decided to choose {second_ch_card}")
+            if to_choose == 3:
+                print(f"Computer decided to choose {third_ch_card}")
+            if to_choose == 4:
+                print(f"Computer decided to choose {fourth_ch_card}")
