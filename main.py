@@ -68,89 +68,118 @@ hearts_cube = random.randint(1, 14)
 if hearts_cube == 1:
     print("You got Ace of hearts ❤")
     ace_of_hearts = 14
+    heart_card = ace_of_hearts
 elif hearts_cube == 2:
     print("You got One of hearts ❤")
     one_of_hearts = 1
+    heart_card = one_of_hearts
 elif hearts_cube == 3:
     print("You got Two of hearts ❤")
     two_of_hearts = 2
+    heart_card = two_of_hearts
 elif hearts_cube == 4:
     print("You got Three of hearts ❤")
     three_of_hearts = 3
+    heart_card = three_of_hearts
 elif hearts_cube == 5:
     print("You got Four of hearts ❤")
     four_of_hearts = 4
+    heart_card = four_of_hearts
 elif hearts_cube == 6:
     print("You got Five of hearts ❤")
     five_of_hearts = 5
+    heart_card = five_of_hearts
 elif hearts_cube == 7:
     print("You got Six of hearts ❤")
     six_of_hearts = 6
+    heart_card = six_of_hearts
 elif hearts_cube == 8:
     print("You got Seven of hearts ❤")
     seven_of_hearts = 7
+    heart_card = seven_of_hearts
 elif hearts_cube == 9:
     print("You got Eight of hearts ❤")
     eight_of_hearts = 8
+    heart_card = eight_of_hearts
 elif hearts_cube == 10:
     print("You got Nine of hearts ❤")
     nine_of_hearts = 9
+    heart_card = nine_of_hearts
 elif hearts_cube == 11:
     print("You got Ten of hearts ❤")
     ten_of_hearts = 10
+    heart_card = ten_of_hearts
 elif hearts_cube == 11:
     print("You got Jack of hearts ❤")
     jack_of_hearts = 11
+    heart_card = jack_of_hearts
 elif hearts_cube == 12:
     print("You got Queen of hearts ❤")
     queen_of_hearts = 12
+    heart_card = queen_of_hearts
 elif hearts_cube == 13:
     print("You got King of hearts ❤")
     king_of_hearts = 13
+    heart_card = king_of_hearts
 
 
 diamonds_cube = random.randint(1, 14)
 if diamonds_cube == 1:
     print("You got Ace of diamonds ♦")
     ace_of_diamonds = 14
+    diamond_card = ace_of_diamonds
 elif diamonds_cube == 2:
     print("You got One of diamonds ♦")
     one_of_diamonds = 1
+    diamond_card = one_of_diamonds
 elif diamonds_cube == 3:
     print("You got Two of diamonds ♦")
     two_of_diamonds = 2
+    diamond_card = two_of_diamonds
 elif diamonds_cube == 4:
     print("You got Three of diamonds ♦")
     three_of_diamonds = 3
+    diamond_card = three_of_diamonds
 elif diamonds_cube == 5:
     print("You got Four of diamonds ♦")
     four_of_diamonds = 4
+    diamond_card = four_of_diamonds
 elif diamonds_cube == 6:
     print("You got Five of diamonds ♦")
     five_of_diamonds = 5
+    diamond_card = five_of_diamonds
 elif diamonds_cube == 7:
     print("You got Six of diamonds ♦")
     six_of_diamonds = 6
+    diamond_card = six_of_diamonds
 elif diamonds_cube == 8:
     print("You got Seven of diamonds ♦")
     seven_of_diamonds = 7
+    diamond_card = seven_of_diamonds
 elif diamonds_cube == 9:
     print("You got Eight of diamonds ♦")
     eight_of_diamonds = 8
+    diamond_card = eight_of_diamonds
 elif diamonds_cube == 10:
     print("You got Nine of diamonds ♦")
     nine_of_diamonds = 9
+    diamond_card = nine_of_diamonds
 elif diamonds_cube == 11:
     print("You got Ten of diamonds ♦")
     ten_of_diamonds = 10
+    diamond_card = ten_of_diamonds
 elif diamonds_cube == 11:
     print("You got Jack of diamonds ♦")
     jack_of_diamonds = 11
+    diamond_card = jack_of_diamonds
 elif diamonds_cube == 12:
     print("You got Queen of diamonds ♦")
     queen_of_diamonds = 12
+    diamond_card = queen_of_diamonds
 elif diamonds_cube == 13:
     print("You got King of diamonds ♦")
+    king_of_diamonds = 13
+    diamond_card = king_of_diamonds
 
 
 clubs_cube = random.randint(1, 14)
@@ -251,7 +280,7 @@ if comp_cards_cube == 1:
     second_ch_card = seven_of_diamonds
     third_ch_card = jack_of_clubs
     fourth_ch_card = king_of_spades
-    card_choose = input("It's your time to shine! Type a nomber of a card you want to start with. If you don't have a right card, type «I have nothing to fight back»\n")
+    card_choose = input("It's your time to shine! Type a number of a card you want to start with. If you don't have a right card, type «I have nothing to fight back»\n")
     if card_choose == heart_card:
         if heart_card > first_ch_card and second_ch_card != heart_card and third_ch_card != heart_card and fourth_ch_card != heart_card:
             print("Seems like it's Computer's card now!")
