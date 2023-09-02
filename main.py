@@ -1,4 +1,4 @@
-#игра в дурака
+# игра в дурака
 
 import random
 import time
@@ -259,7 +259,7 @@ if comp_cards_cube == 1:
     fourth_ch_card = king_of_spades
     card_choose = input("It's your time to shine! Type a number of a card you want to start with. If you don't have a right card, type «I have nothing to fight back»\n")
     if card_choose == chosen_heart:
-        if chosen_heart > first_ch_card and second_ch_card != chosen_heart and third_ch_card != chosen_heart and fourth_ch_card != chosen_heart:
+        if first_ch_card < chosen_heart and second_ch_card != chosen_heart and third_ch_card != chosen_heart and fourth_ch_card != chosen_heart:
             print("Seems like it's Computer's card now!")
         if chosen_heart < first_ch_card or second_ch_card == chosen_heart or third_ch_card == chosen_heart or fourth_ch_card == chosen_heart:
             to_choose = random.randint(1, 4)
